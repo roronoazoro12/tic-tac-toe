@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family:"permanent marker",cursive;
+    background-color: gray;
+    min-height: 100vh;
+    font-size: 20px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+.container{
+    text-align:center;
+    margin:25px;
+}
+
+.cell{
+    width: 80px;
+    height: 80px;
+    border:1px solid white;
+    color: white;
+    text-align: center;
+    font-size: 65px;
+}
+
+#cells{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    width: 230px;
+    margin: auto;
+    padding:50px;
+}
+
+button{
+    width: 75px;
+    height: 40px;
+    border-radius:20px;
+}
